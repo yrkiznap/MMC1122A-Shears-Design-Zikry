@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>index</title>
+	<link href="css/index.css" rel="stylesheet" type="text/css">
+	<link href="CSS/slider.css" rel="stylesheet" type="text/css" media="screen">
+	
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="../../../Downloads/JS/plugins/banner-slider/js/slider.js"></script>
+  <script type="text/javascript">  // This is the script for the banner slider
+		$(document).ready(function() {
+			$('#slider').s3Slider({
+				timeOut: 3000
+			});
+		});
+	</script>
+	<script type="text/javascript" src="js/featureList.js"></script>
+    <link rel="stylesheet" href="css/featured.css" />
+
+	<script language="javascript">
+		$(document).ready(function() {
+
+			$.featureList(
+				$("#tabs li a"),
+				$("#output li"), {
+					start_item	:	1
+				}
+			);
+		});
+	</script>
+
+</head>
+
+<body>
+<div id="wrapper">
+    
+  <div id="wrapper2">
+    <div id="Logo"> <img src="img/logo/shears-logo.jpg"></div>
+    <div id="Icon"> <a href="https://www.facebook.com/kanyewest/"> <img src="img/logo/facebook_32.png"></a> <a href="https://x.com/kanyewest"> <img src="img/logo/twitter_32.png"></a> <a href="https://www.youtube.com/channel/UCs6eXM7s8Vl5WcECcRHc2qQ"> <img src="img/logo/youtube_32.png"></a> <a href="https://genius.com/albums/Yung-senju/2-niggas-kissing"> <img src="img/logo/rss_32.png"></a></div>
+    <div id="navigation"> <a href="index.html">Home </a> <a href="about.html">About </a> <a href="product.html">Product </a> <a href="service.html">Service </a> <a href="contact.html">Contact </a></div>
+	  
+    <div id="slider">
+
+		<ul id="sliderContent">
+		
+		<!-- use this list item if you want to include a link -->				
+			<li class="sliderImage">
+				<a href=""><img src="IMG/banner/b1.jpg" /></a>
+				<span class="top"><strong>This is an image title</strong><br />Lorem pellentesque habitant morbi tristique.<br />Estibulum erat wisi, condimentum, commodo <br />ornare sit wisi. Aenean fermentum, elit eget<br />tinciduntcondimentum.Vestibulum erat wisi<br />condimentum sed, commodo vitae, ornare <br />sit amet, wisi. Aenean fermentum, elit eget <br />tincidunt condimentum.</span>
+			</li>
+			
+		<!-- use this list item if you don NOT want to include a link -->				
+			<li class="sliderImage">
+			  <img src="IMG/banner/b2.jpg" />
+				<span class="top"><strong>This is an image title</strong><br />Lorem pellentesque habitant morbi tristique.<br />Estibulum erat wisi, condimentum, commodo <br />ornare sit wisi. Aenean fermentum, elit eget<br />tinciduntcondimentum.Vestibulum erat wisi<br />condimentum sed, commodo vitae, ornare <br />sit amet, wisi. Aenean fermentum, elit eget <br />tincidunt condimentum.</span>
+			</li>
+			<!-- use this list item if you don NOT want to include a link -->				
+			<li class="sliderImage">
+			  <img src="IMG/banner/b3.jpg" />
+				<span class="top"><strong>This is an image title</strong><br />Lorem pellentesque habitant morbi tristique.<br />Estibulum erat wisi, condimentum, commodo <br />ornare sit wisi. Aenean fermentum, elit eget<br />tinciduntcondimentum.Vestibulum erat wisi<br />condimentum sed, commodo vitae, ornare <br />sit amet, wisi. Aenean fermentum, elit eget <br />tincidunt condimentum.</span>
+			</li>
+
+			<div class="clear sliderImage"></div>
+		</ul>
+	
+	</div>
+    <div id="Title">
+      <h1> Service of Shears Design Studio </h1>
+    </div>
+   <div id="feature">
+		<h1>Featured Services</h1>
+
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+
+		<div id="feature_list">
+			<ul id="tabs">
+				<li>
+					<a href="javascript:;">
+						<img src="IMG/icon1.png" />
+						
+						<h3>Living Rooms</h3>
+						<span>Lorem ipsum dolor sit amet consect</span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="IMG/icon2.png" />
+						<h3>Dining Rooms</h3>
+						<span>Lorem ipsum dolor sit amet consect</span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="IMG/icon3.png" />
+						<h3>Family Rooms</h3>
+						<span>Lorem ipsum dolor sit amet consect</span>
+					</a>
+				</li>
+			</ul>
+			<ul id="output">
+				<li>
+					<img src="IMG/sample1.jpg" />
+					<a href="#">More Living Rooms</a>
+				</li>
+				<li>
+					<img src="IMG/sample2.jpg" />
+					<a href="DiningRoom.html">More Dining Rooms</a> 
+				</li>
+				<li>
+					<img src="IMG/sample3.jpg" />
+					<a href="#">More Family Rooms</a>
+				</li>
+			</ul>
+
+		</div>
+	</div>
+
+<div id="footer">
+      <p> Copyright Zikry Punya : 2025 </p>
+      </div>
+  </div>
+  
+</div>
+</body>
+</html>

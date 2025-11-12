@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+body    {background-color: #60A9D6;}
+#wrapper2 {background-color: white;margin: 0px auto;width:900px;}
+#wrapper  {background-color: white;margin: 0px auto;width:950px;}
+#Logo	{float:left;}
+#Icon	{float:right;}
+#navigation	{clear:both;word-spacing:20px;border-top: solid Black 1px;border-bottom: solid Black 1px; margin: 5px 5px 5px 5px; padding: 15px 0px 15px 5px}
+	#navigation a {font-family:Arial; font-size:15px;text-decoration-line: none; margin-left:10px;}
+#navigation a:link {color:#000;}
+#navigation a:hover {color:#c60}
+
+#LeftContent {float: left; width:600px;}
+#LeftContent p {font-family: Arial; font-size: 12px;margin:10px 0px 10px 0px;}
+
+#LeftContent3      {background-color: lightgray; padding: 20px; width: 25%; margin: 40px 30px 40px 10px; border-top: 10px solid red; float: left;}
+
+#LeftContent3 h1   {border-bottom: solid black 0px; margin: 0px 0px 0px 0px; padding: 0px 0px 10px 0px;}
+
+#LeftContent3 img  {width: 100%;length: 100%; margin: 40px 40px 40px 0px;}
+
+#LeftContent4      {background-color: lightgray; padding: 20px; width: 25%; margin: 40px 30px 40px 10px; border-top: 10px solid blue; float: left;}
+
+#LeftContent4 h1   {border-bottom: solid black 0px; margin: 0px 0px 0px 0px; padding: 0px 30px 10px 0px;}
+
+#LeftContent4 img  {width: 100%;length: 100%; margin: 40px 40px 40px 0px;}
+
+#LeftContent5      {background-color: lightgray; padding: 20px; width: 25%; margin: 40px 0px 40px 10px; border-top: 10px solid green; float: left;}
+
+#LeftContent5 h1   {border-bottom: solid black 0px; margin: 0px 0px 0px 0px; padding: 0px 0px 10px 0px;}
+
+#LeftContent5 img  {width: 100%;length: 100%; margin: 40px 0px 40px 0px;}
+
+#LeftContent img   {border:solid black 1px ;padding: 5px;}
+
+#RightContent{float:right;width:300px;}
+#RightContent h4 {color:#c60}
+#RightContent p {font-family: Arial; font-size: 12px; margin:10px 0px 10px }
+h1 {color: #c60;}
+#footer  {clear:both;padding:10px 0px 10px 350px; border-top: solid black 1px;}
